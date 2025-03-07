@@ -19,12 +19,7 @@ class _InputWidgetExampleState extends State<InputWidgetExample> {
 
   @override
   Widget build(BuildContext context) {
-    // return Center(
-    //   child: Text(
-    //     "입력 위젯 예시",
-    //     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-    //   ),
-    // );
+    // 입력 양식이 키보드에 가리는 것을 방지하기 위해 SingleChildScrollView로 감싼다.
     return SingleChildScrollView(
       child: Column(
         children: <Widget>[
